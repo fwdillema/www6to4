@@ -1,0 +1,41 @@
+README for the www6to4 Proxy by F.W. Dillema 
+Copyright 2000,2001 F.W. Dillema, University of Tromsø, Norway
+
+	$Id: README,v 1.4 2001/12/17 15:10:58 dillema Exp $
+
+This is a little WWW-proxy that can communicate over both IPv4 and IPv6. It's
+primary use is as stub-proxy between a IPv4-only browser and the rest of the
+(v4 and v6) Internet. However, it will work just fine on IPv4-only or IPv6-only
+machines.  This proxy is meant to run on a client machine as
+frontend to an IPv4-only browser and not to serve a large number of clients and
+keep a cache for them. If you need the latter you're much better off with a
+full-fledged proxy like squid.
+
+There is remarkably little documentation for this program. Just read the
+example config files (www6to4.conf and www6to4_forward.conf) and try
+`www6to4 -h` for a list of commandline options.
+
+Author: F.W. Dillema
+Copyright 2001 F.W. Dillema,
+University of Tromso, Norway.
+
+This program is based on code copyrighted by the Junkbusters Corp. and is
+distributed under the same licence as their code:
+
+README for the Internet Junkbuster Proxy (TM) Copyright 1997-8 Junkbusters Corp.
+
+	Id: README,v 1.17 1998/10/29 22:07:42 acjc Exp
+
+	This program is free software; you can redistribute it and/or modify it
+	under the terms of the GNU General Public License as published by the
+	Free Software Foundation; either version 2 of the License,
+	or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+	See the GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
